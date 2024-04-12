@@ -4,7 +4,7 @@ while result != -1:
     scores.append(result)
     result = int(input())
 
-winner = scores
+winner = scores[0]
 for score in scores:
     if score > winner:
         winner = score
